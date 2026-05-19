@@ -33,9 +33,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\CatalogoApp.Aplication.csproj",
-      "projectName": "CatalogoApp.Aplication",
-      "projectPath": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\CatalogoApp.Aplication.csproj",
+      "projectUniqueName": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\CatalogoApp.Application.csproj",
+      "projectName": "CatalogoApp.Application",
+      "projectPath": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\CatalogoApp.Application.csproj",
       "packagesPath": "C:\\Users\\marce\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,0 +1,9 @@
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\CatalogoApp.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\CatalogoApp.Presentation.AssemblyInfoInputs.cache
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\CatalogoApp.Presentation.AssemblyInfo.cs
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\CatalogoApp.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\CatalogoApp.Presentation.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\CatalogoApp.Presentation.RazorAssemblyInfo.cache
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\CatalogoApp.Presentation.RazorAssemblyInfo.cs
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\CatalogoApp.Presentation.sourcelink.json
