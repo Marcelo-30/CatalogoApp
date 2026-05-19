@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3674B3F-C988-3DDC-F6BB-E57A5ABF0EE7}|CatalogoApp.Infrastructure\\CatalogoApp.Infrastructure.csproj|c:\\users\\marce\\source\\repos\\catalogoapp\\catalogoapp.infrastructure\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3674B3F-C988-3DDC-F6BB-E57A5ABF0EE7}|CatalogoApp.Infrastructure\\CatalogoApp.Infrastructure.csproj|solutionrelative:catalogoapp.infrastructure\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3674B3F-C988-3DDC-F6BB-E57A5ABF0EE7}|CatalogoApp.Infrastructure\\CatalogoApp.Infrastructure.csproj|c:\\users\\marce\\source\\repos\\catalogoapp\\catalogoapp.infrastructure\\catalogoapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A3674B3F-C988-3DDC-F6BB-E57A5ABF0EE7}|CatalogoApp.Infrastructure\\CatalogoApp.Infrastructure.csproj|solutionrelative:catalogoapp.infrastructure\\catalogoapp.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B2BF6A-C7CA-8649-6F68-44836CEDCB63}|CatalogoApp.Domain\\CatalogoApp.Domain.csproj|c:\\users\\marce\\source\\repos\\catalogoapp\\catalogoapp.domain\\interfaces\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B2BF6A-C7CA-8649-6F68-44836CEDCB63}|CatalogoApp.Domain\\CatalogoApp.Domain.csproj|solutionrelative:catalogoapp.domain\\interfaces\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F4455C-7EA3-E14D-E06D-9C7C3C8DB894}|CatalogoApp.Aplication\\CatalogoApp.Aplication.csproj|c:\\users\\marce\\source\\repos\\catalogoapp\\catalogoapp.aplication\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01F4455C-7EA3-E14D-E06D-9C7C3C8DB894}|CatalogoApp.Aplication\\CatalogoApp.Aplication.csproj|solutionrelative:catalogoapp.aplication\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01F4455C-7EA3-E14D-E06D-9C7C3C8DB894}|CatalogoApp.Aplication\\CatalogoApp.Aplication.csproj|c:\\users\\marce\\source\\repos\\catalogoapp\\catalogoapp.aplication\\catalogoapp.aplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{01F4455C-7EA3-E14D-E06D-9C7C3C8DB894}|CatalogoApp.Aplication\\CatalogoApp.Aplication.csproj|solutionrelative:catalogoapp.aplication\\catalogoapp.aplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|c:\\users\\marce\\source\\repos\\catalogoapp\\catalogoapp.presentation\\catalogoapp.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|solutionrelative:catalogoapp.presentation\\catalogoapp.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Infrastructure\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "CatalogoApp.Infrastructure\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Infrastructure\\Models\\Item.cs",
+              "RelativeToolTip": "CatalogoApp.Infrastructure\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T15:11:15.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Domain\\Interfaces\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "CatalogoApp.Domain\\Interfaces\\ItemRepository.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Domain\\Interfaces\\ItemRepository.cs",
+              "RelativeToolTip": "CatalogoApp.Domain\\Interfaces\\ItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T15:09:14.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "CatalogoApp.Aplication\\Services\\ItemService.cs",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\Services\\ItemService.cs",
+              "RelativeToolTip": "CatalogoApp.Aplication\\Services\\ItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T14:58:13.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CatalogoApp.Presentation.csproj",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj",
+              "RelativeDocumentMoniker": "CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj",
+              "RelativeToolTip": "CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-19T14:56:19.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CatalogoApp.Aplication.csproj",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\CatalogoApp.Aplication.csproj",
+              "RelativeDocumentMoniker": "CatalogoApp.Aplication\\CatalogoApp.Aplication.csproj",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\CatalogoApp.Aplication.csproj",
+              "RelativeToolTip": "CatalogoApp.Aplication\\CatalogoApp.Aplication.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-19T14:55:23.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CatalogoApp.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Infrastructure\\CatalogoApp.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "CatalogoApp.Infrastructure\\CatalogoApp.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Infrastructure\\CatalogoApp.Infrastructure.csproj",
+              "RelativeToolTip": "CatalogoApp.Infrastructure\\CatalogoApp.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-19T14:55:14.465Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
