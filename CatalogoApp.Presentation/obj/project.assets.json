@@ -1,11 +1,67 @@
 {
   "version": 4,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "CatalogoApp.Aplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "CatalogoApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CatalogoApp.Aplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CatalogoApp.Aplication.dll": {}
+        }
+      },
+      "CatalogoApp.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/CatalogoApp.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CatalogoApp.Domain.dll": {}
+        }
+      },
+      "CatalogoApp.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "CatalogoApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CatalogoApp.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CatalogoApp.Infrastructure.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CatalogoApp.Aplication/1.0.0": {
+      "type": "project",
+      "path": "../CatalogoApp.Aplication/CatalogoApp.Aplication.csproj",
+      "msbuildProject": "../CatalogoApp.Aplication/CatalogoApp.Aplication.csproj"
+    },
+    "CatalogoApp.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CatalogoApp.Domain/CatalogoApp.Domain.csproj",
+      "msbuildProject": "../CatalogoApp.Domain/CatalogoApp.Domain.csproj"
+    },
+    "CatalogoApp.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../CatalogoApp.Infrastructure/CatalogoApp.Infrastructure.csproj",
+      "msbuildProject": "../CatalogoApp.Infrastructure/CatalogoApp.Infrastructure.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "CatalogoApp.Aplication >= 1.0.0",
+      "CatalogoApp.Infrastructure >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\marce\\.nuget\\packages\\": {},
@@ -39,7 +95,14 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\CatalogoApp.Aplication.csproj": {
+              "projectPath": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\CatalogoApp.Aplication.csproj"
+            },
+            "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Infrastructure\\CatalogoApp.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Infrastructure\\CatalogoApp.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
