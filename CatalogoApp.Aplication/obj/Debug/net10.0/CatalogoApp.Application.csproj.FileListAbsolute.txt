@@ -1,0 +1,16 @@
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\bin\Debug\net10.0\CatalogoApp.Application.deps.json
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\bin\Debug\net10.0\CatalogoApp.Application.dll
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\bin\Debug\net10.0\CatalogoApp.Application.pdb
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\bin\Debug\net10.0\CatalogoApp.Domain.dll
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\bin\Debug\net10.0\CatalogoApp.Domain.pdb
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\CatalogoApp.Application.csproj.AssemblyReference.cache
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\CatalogoApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\CatalogoApp.Application.AssemblyInfoInputs.cache
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\CatalogoApp.Application.AssemblyInfo.cs
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\CatalogoApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\CatalogoApp.Application.sourcelink.json
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\Catalogo.3C6EFD6F.Up2Date
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\CatalogoApp.Application.dll
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\refint\CatalogoApp.Application.dll
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\CatalogoApp.Application.pdb
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\ref\CatalogoApp.Application.dll

@@ -60,6 +60,7 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "CatalogoApp.Application >= 1.0.0",
+      "CatalogoApp.Domain >= 1.0.0",
       "CatalogoApp.Infrastructure >= 1.0.0"
     ]
   },
@@ -98,6 +99,9 @@
           "projectReferences": {
             "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\CatalogoApp.Application.csproj": {
               "projectPath": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\CatalogoApp.Application.csproj"
+            },
+            "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Domain\\CatalogoApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Domain\\CatalogoApp.Domain.csproj"
             },
             "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Infrastructure\\CatalogoApp.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Infrastructure\\CatalogoApp.Infrastructure.csproj"

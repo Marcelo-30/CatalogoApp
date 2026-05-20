@@ -1,3 +1,6 @@
+using CatalogoApp.Application.Services;
+using CatalogoApp.Domain.Interfaces;
+using CatalogoApp.Infrastructure.Repositories;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
