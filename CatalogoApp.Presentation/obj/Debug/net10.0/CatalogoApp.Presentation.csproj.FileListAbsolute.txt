@@ -30,7 +30,6 @@ C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\scopedcss\bundle\CatalogoApp.Presentation.styles.css
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\scopedcss\projectbundle\CatalogoApp.Presentation.bundle.scp.css
-C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\compressed\5pxon9i2hd-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\compressed\ve0oc86usb-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\compressed\l5x10b9972-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\compressed\gg06c6q6lw-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -106,3 +105,4 @@ C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\ref\CatalogoApp.Presentation.dll
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\compressed\gdzvza1bbe-{0}-42tn52q6m9-42tn52q6m9.gz
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\compressed\cy7v5ob6rw-{0}-42tn52q6m9-42tn52q6m9.gz
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\compressed\5pxon9i2hd-{0}-drc2xs3u8m-drc2xs3u8m.gz

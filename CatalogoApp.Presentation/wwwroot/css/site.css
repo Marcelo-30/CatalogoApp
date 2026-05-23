@@ -1,31 +1,532 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    html {
+        font-size: 16px;
+    }
 }
 
 body {
-  margin-bottom: 60px;
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f172a, #111827);
+    color: #f8fafc;
+    font-family: 'Segoe UI', Arial, sans-serif;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+/* Focus de Bootstrap */
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+/* Layout general */
+
+.main-content {
+    min-height: 80vh;
+    padding: 40px 0;
+}
+
+.navbar-custom {
+    background: rgba(2, 6, 23, 0.95);
+    border-bottom: 1px solid #1e293b;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    color: #38bdf8 !important;
+    font-size: 24px;
+    font-weight: bold;
+    white-space: normal;
+    text-align: center;
+    word-break: normal;
+}
+
+.navbar .nav-link {
+    color: #e2e8f0 !important;
+    font-weight: 500;
+    margin-left: 12px;
+    transition: 0.2s ease;
+}
+
+    .navbar .nav-link:hover {
+        color: #38bdf8 !important;
+    }
+
+.btn-agregar {
+    background: #2563eb;
+    color: white !important;
+    border-radius: 10px;
+    padding: 8px 14px !important;
+}
+
+    .btn-agregar:hover {
+        background: #1d4ed8;
+        color: white !important;
+    }
+
+.footer-custom {
+    background: #020617;
+    border-top: 1px solid #1e293b;
+    color: #94a3b8;
+    padding: 20px 0;
+}
+
+/* Página de catálogo */
+
+.catalogo-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 30px;
+    padding: 32px;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    border: 1px solid #334155;
+    border-radius: 22px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+    .catalogo-hero h1 {
+        font-size: 38px;
+        font-weight: 800;
+        margin-bottom: 10px;
+        color: #f8fafc;
+    }
+
+    .catalogo-hero p {
+        color: #cbd5e1;
+        font-size: 17px;
+        margin: 0;
+    }
+
+.btn-agregar-videojuego {
+    background: #2563eb;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.2s ease;
+    white-space: nowrap;
+}
+
+    .btn-agregar-videojuego:hover {
+        background: #1d4ed8;
+        color: white;
+        transform: translateY(-2px);
+    }
+
+.filtros-genero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.filtro-label {
+    color: #cbd5e1;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.filtro-link {
+    background: #1e293b;
+    color: #e2e8f0;
+    border: 1px solid #334155;
+    padding: 8px 14px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.2s ease;
+}
+
+    .filtro-link:hover {
+        background: #38bdf8;
+        color: #020617;
+        border-color: #38bdf8;
+    }
+
+.videojuegos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 24px;
+}
+
+.videojuego-card {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.28);
+    transition: 0.2s ease;
+}
+
+    .videojuego-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.38);
+        border-color: #38bdf8;
+    }
+
+.videojuego-imagen {
+    height: 140px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 52px;
+}
+
+.videojuego-info {
+    padding: 22px;
+}
+
+.videojuego-genero {
+    display: inline-block;
+    background: rgba(56, 189, 248, 0.15);
+    color: #38bdf8;
+    padding: 5px 10px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.videojuego-info h2 {
+    color: #f8fafc;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.videojuego-info p {
+    color: #cbd5e1;
+    margin-bottom: 18px;
+}
+
+.btn-detalle {
+    display: inline-block;
+    background: #334155;
+    color: #f8fafc;
+    padding: 10px 14px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+    .btn-detalle:hover {
+        background: #475569;
+        color: white;
+    }
+
+.catalogo-vacio {
+    text-align: center;
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 20px;
+    padding: 50px 20px;
+}
+
+    .catalogo-vacio h2 {
+        color: #f8fafc;
+        margin-bottom: 10px;
+    }
+
+    .catalogo-vacio p {
+        color: #cbd5e1;
+        margin-bottom: 22px;
+    }
+
+/* Página de detalle */
+
+.detalle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detalle-card {
+    width: 100%;
+    max-width: 900px;
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+    display: grid;
+    grid-template-columns: 320px 1fr;
+}
+
+.detalle-imagen {
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    min-height: 380px;
+}
+
+.detalle-info {
+    padding: 36px;
+}
+
+.detalle-genero {
+    display: inline-block;
+    background: rgba(56, 189, 248, 0.15);
+    color: #38bdf8;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.detalle-info h1 {
+    color: #f8fafc;
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.detalle-datos {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+    .detalle-datos p {
+        background: #0f172a;
+        border: 1px solid #334155;
+        border-radius: 14px;
+        padding: 14px 16px;
+        margin: 0;
+        color: #cbd5e1;
+    }
+
+    .detalle-datos strong {
+        color: #f8fafc;
+        margin-right: 6px;
+    }
+
+    .detalle-datos span {
+        color: #cbd5e1;
+    }
+
+.detalle-acciones {
+    margin-top: 28px;
+}
+
+.btn-volver {
+    display: inline-block;
+    background: #334155;
+    color: #f8fafc;
+    padding: 11px 16px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+    .btn-volver:hover {
+        background: #475569;
+        color: white;
+        transform: translateY(-2px);
+    }
+
+/* Página agregar videojuego */
+
+.formulario-container {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-card {
+    width: 100%;
+    max-width: 760px;
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 24px;
+    padding: 34px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
+}
+
+.formulario-header {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 30px;
+}
+
+.formulario-icono {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, #2563eb, #7c3aed);
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+}
+
+.formulario-header h1 {
+    color: #f8fafc;
+    font-size: 34px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.formulario-header p {
+    color: #cbd5e1;
+    margin: 6px 0 0;
+}
+
+.formulario-videojuego {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.campo-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+    .campo-formulario label {
+        color: #f8fafc;
+        font-weight: 700;
+    }
+
+    .campo-formulario input,
+    .campo-formulario textarea {
+        width: 100%;
+        background: #0f172a;
+        border: 1px solid #334155;
+        color: #f8fafc;
+        border-radius: 12px;
+        padding: 12px 14px;
+        font-size: 16px;
+        outline: none;
+        transition: 0.2s ease;
+    }
+
+        .campo-formulario input:focus,
+        .campo-formulario textarea:focus {
+            border-color: #38bdf8;
+            box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+        }
+
+        .campo-formulario input::placeholder,
+        .campo-formulario textarea::placeholder {
+            color: #64748b;
+        }
+
+.acciones-formulario {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.btn-guardar {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+    .btn-guardar:hover {
+        background: #1d4ed8;
+        transform: translateY(-2px);
+    }
+
+.btn-cancelar {
+    background: #334155;
+    color: #f8fafc;
+    padding: 12px 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.2s ease;
+}
+
+    .btn-cancelar:hover {
+        background: #475569;
+        color: white;
+        transform: translateY(-2px);
+    }
+
+.text-danger {
+    color: #f87171 !important;
+    font-size: 14px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .catalogo-hero {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+        .catalogo-hero h1 {
+            font-size: 30px;
+        }
+
+    .btn-agregar-videojuego {
+        width: 100%;
+        text-align: center;
+    }
+
+    .detalle-card {
+        grid-template-columns: 1fr;
+    }
+
+    .detalle-imagen {
+        min-height: 200px;
+        font-size: 60px;
+    }
+
+    .detalle-info {
+        padding: 26px;
+    }
+
+        .detalle-info h1 {
+            font-size: 30px;
+        }
+
+    .formulario-card {
+        padding: 24px;
+    }
+
+    .formulario-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+        .formulario-header h1 {
+            font-size: 28px;
+        }
+
+    .acciones-formulario {
+        flex-direction: column;
+    }
+
+    .btn-guardar,
+    .btn-cancelar {
+        width: 100%;
+        text-align: center;
+    }
 }
