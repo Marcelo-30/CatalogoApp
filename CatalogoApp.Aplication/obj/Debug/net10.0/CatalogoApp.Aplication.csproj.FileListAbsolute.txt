@@ -1,5 +1,0 @@
-C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\CatalogoApp.Aplication.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\CatalogoApp.Aplication.AssemblyInfoInputs.cache
-C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\CatalogoApp.Aplication.AssemblyInfo.cs
-C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\CatalogoApp.Aplication.csproj.CoreCompileInputs.cache
-C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Aplication\obj\Debug\net10.0\CatalogoApp.Aplication.sourcelink.json
