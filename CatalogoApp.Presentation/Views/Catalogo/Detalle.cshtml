@@ -1,11 +1,42 @@
 ﻿@model CatalogoApp.Domain.Models.Item
 
-<h1>@Model.Titulo</h1>
+@{
+    ViewData["Title"] = Model.Titulo;
+}
 
-<p><strong>Género:</strong> @Model.Genero</p>
-<p><strong>Consola:</strong> @Model.Consola</p>
-<p><strong>Año:</strong> @Model.Ano</p>
-<p><strong>Descripción:</strong> @Model.Descripcion</p>
+<section class="detalle-container">
+    <div class="detalle-card">
+        <div class="detalle-imagen">
+            🎮
+        </div>
 
-<hr />
-<a asp-action="Index">&larr; Volver al catálogo</a>
+        <div class="detalle-info">
+            <span class="detalle-genero">@Model.Genero</span>
+
+            <h1>@Model.Titulo</h1>
+
+            <div class="detalle-datos">
+                <p>
+                    <strong>Consola:</strong>
+                    <span>@Model.Consola</span>
+                </p>
+
+                <p>
+                    <strong>Año:</strong>
+                    <span>@Model.Ano</span>
+                </p>
+
+                <p>
+                    <strong>Descripción:</strong>
+                    <span>@Model.Descripcion</span>
+                </p>
+            </div>
+
+            <div class="detalle-acciones">
+                <a class="btn-volver" asp-action="Index">
+                    ← Volver al catálogo
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
