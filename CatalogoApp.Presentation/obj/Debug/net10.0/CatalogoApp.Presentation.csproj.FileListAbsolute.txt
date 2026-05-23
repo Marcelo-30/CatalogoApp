@@ -92,8 +92,6 @@ C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\compressed\2ov1n31q9h-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\compressed\am08a726dk-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\compressed\tdqrb9j1l0-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\compressed\gdzvza1bbe-{0}-9o8jp1nxco-9o8jp1nxco.gz
-C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\compressed\cy7v5ob6rw-{0}-9o8jp1nxco-9o8jp1nxco.gz
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\staticwebassets.development.json
@@ -106,3 +104,5 @@ C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\CatalogoApp.Presentation.pdb
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\CatalogoApp.Presentation.genruntimeconfig.cache
 C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\ref\CatalogoApp.Presentation.dll
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\compressed\gdzvza1bbe-{0}-42tn52q6m9-42tn52q6m9.gz
+C:\Users\marce\source\repos\CatalogoApp\CatalogoApp.Presentation\obj\Debug\net10.0\compressed\cy7v5ob6rw-{0}-42tn52q6m9-42tn52q6m9.gz

@@ -1,48 +1,85 @@
-/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
+/* Estilos generales del layout */
 
 a.navbar-brand[b-l6z08w3uzv] {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+    white-space: normal;
+    text-align: center;
+    word-break: normal;
 }
 
-a[b-l6z08w3uzv] {
-  color: #0077cc;
+/* Navbar personalizada */
+
+.navbar-custom[b-l6z08w3uzv] {
+    background: rgba(2, 6, 23, 0.95);
+    border-bottom: 1px solid #1e293b;
+    padding: 15px 0;
 }
+
+.navbar-brand[b-l6z08w3uzv] {
+    color: #38bdf8 !important;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .nav-link[b-l6z08w3uzv] {
+    color: #e2e8f0 !important;
+    font-weight: 500;
+    margin-left: 12px;
+    transition: 0.2s ease;
+}
+
+    .navbar .nav-link:hover[b-l6z08w3uzv] {
+        color: #38bdf8 !important;
+    }
+
+.btn-agregar[b-l6z08w3uzv] {
+    background: #2563eb;
+    color: white !important;
+    border-radius: 10px;
+    padding: 8px 14px !important;
+}
+
+    .btn-agregar:hover[b-l6z08w3uzv] {
+        background: #1d4ed8;
+        color: white !important;
+    }
+
+/* Contenido principal */
+
+.main-content[b-l6z08w3uzv] {
+    min-height: 80vh;
+    padding: 40px 0;
+}
+
+/* Footer */
+
+.footer-custom[b-l6z08w3uzv] {
+    background: #020617;
+    border-top: 1px solid #1e293b;
+    color: #94a3b8;
+    padding: 20px 0;
+}
+
+/* Botones */
 
 .btn-primary[b-l6z08w3uzv] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #fff;
+    background-color: #2563eb;
+    border-color: #2563eb;
+    border-radius: 10px;
+    padding: 10px 16px;
+    font-weight: 600;
 }
 
-.nav-pills .nav-link.active[b-l6z08w3uzv], .nav-pills .show > .nav-link[b-l6z08w3uzv] {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
+    .btn-primary:hover[b-l6z08w3uzv] {
+        background-color: #1d4ed8;
+        border-color: #1d4ed8;
+    }
 
-.border-top[b-l6z08w3uzv] {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom[b-l6z08w3uzv] {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow[b-l6z08w3uzv] {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy[b-l6z08w3uzv] {
-  font-size: 1rem;
-  line-height: inherit;
-}
+/* Quita el footer viejo que venía por defecto */
 
 .footer[b-l6z08w3uzv] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+    position: static;
+    width: 100%;
+    white-space: nowrap;
+    line-height: normal;
 }

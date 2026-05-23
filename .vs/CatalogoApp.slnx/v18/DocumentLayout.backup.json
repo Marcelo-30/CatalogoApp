@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|c:\\users\\marce\\source\\repos\\catalogoapp\\catalogoapp.presentation\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|solutionrelative:catalogoapp.presentation\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|c:\\users\\marce\\source\\repos\\catalogoapp\\catalogoapp.presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|solutionrelative:catalogoapp.presentation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|c:\\users\\marce\\source\\repos\\catalogoapp\\catalogoapp.presentation\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|solutionrelative:catalogoapp.presentation\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -74,15 +82,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "CatalogoApp.Presentation\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAmwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-23T02:12:11.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CatalogoApp.Presentation\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACMAAAAAAAAAAADwv0gAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-23T02:11:11.211Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Catalogo\\Index.cshtml",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Views\\Catalogo\\Index.cshtml",
@@ -94,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Detalle.cshtml",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Catalogo\\Detalle.cshtml",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Views\\Catalogo\\Detalle.cshtml",
@@ -106,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "CatalogoApp.Presentation.csproj",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj",
@@ -118,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Agregar.cshtml",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Catalogo\\Agregar.cshtml",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Views\\Catalogo\\Agregar.cshtml",
@@ -130,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Views\\_ViewImports.cshtml",
@@ -138,12 +172,11 @@
               "RelativeToolTip": "CatalogoApp.Presentation\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T16:39:15.417Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:39:15.417Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "items.json",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\data\\items.json",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\data\\items.json",
@@ -151,12 +184,11 @@
               "RelativeToolTip": "CatalogoApp.Presentation\\data\\items.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-20T16:18:34.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:18:34.357Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Views\\Shared\\Error.cshtml",
@@ -169,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Controllers\\HomeController.cs",
@@ -181,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Program.cs",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Program.cs",
@@ -193,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Domain\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "CatalogoApp.Domain\\Models\\ErrorViewModel.cs",
@@ -205,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CatalogoController.cs",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Controllers\\CatalogoController.cs",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Controllers\\CatalogoController.cs",
@@ -217,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "IItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Domain\\Interfaces\\IItemRepository.cs",
               "RelativeDocumentMoniker": "CatalogoApp.Domain\\Interfaces\\IItemRepository.cs",
@@ -229,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "JsonItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Infrastructure\\Repositories\\JsonItemRepository.cs",
               "RelativeDocumentMoniker": "CatalogoApp.Infrastructure\\Repositories\\JsonItemRepository.cs",
@@ -241,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "CatalogoApp.Application.csproj",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\CatalogoApp.Application.csproj",
               "RelativeDocumentMoniker": "CatalogoApp.Aplication\\CatalogoApp.Application.csproj",
@@ -253,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "CatalogoApp.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Infrastructure\\CatalogoApp.Infrastructure.csproj",
               "RelativeDocumentMoniker": "CatalogoApp.Infrastructure\\CatalogoApp.Infrastructure.csproj",
@@ -265,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ItemService.cs",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Aplication\\Services\\ItemService.cs",
               "RelativeDocumentMoniker": "CatalogoApp.Aplication\\Services\\ItemService.cs",
