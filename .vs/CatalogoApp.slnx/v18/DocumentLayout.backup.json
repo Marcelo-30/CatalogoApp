@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|c:\\users\\marce\\source\\repos\\catalogoapp\\catalogoapp.presentation\\views\\catalogo\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|solutionrelative:catalogoapp.presentation\\views\\catalogo\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|c:\\users\\marce\\source\\repos\\catalogoapp\\catalogoapp.presentation\\views\\catalogo\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|solutionrelative:catalogoapp.presentation\\views\\catalogo\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|c:\\users\\marce\\source\\repos\\catalogoapp\\catalogoapp.presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|solutionrelative:catalogoapp.presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|c:\\users\\marce\\source\\repos\\catalogoapp\\catalogoapp.presentation\\views\\catalogo\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|solutionrelative:catalogoapp.presentation\\views\\catalogo\\agregar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE77BC66-AD97-379D-2673-9813E0D5BF09}|CatalogoApp.Presentation\\CatalogoApp.Presentation.csproj|c:\\users\\marce\\source\\repos\\catalogoapp\\catalogoapp.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Views\\Shared\\_Layout.cshtml.css",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Views\\Shared\\_Layout.cshtml",
@@ -114,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Catalogo\\Index.cshtml",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Views\\Catalogo\\Index.cshtml",
@@ -122,18 +122,17 @@
               "RelativeToolTip": "CatalogoApp.Presentation\\Views\\Catalogo\\Index.cshtml",
               "ViewState": "AgIAACwAAAAAAAAAAAAYwEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T16:00:55.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-20T16:00:55.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Detalle.cshtml",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Catalogo\\Detalle.cshtml",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Views\\Catalogo\\Detalle.cshtml",
               "ToolTip": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Catalogo\\Detalle.cshtml",
               "RelativeToolTip": "CatalogoApp.Presentation\\Views\\Catalogo\\Detalle.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvykAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-20T16:01:59.639Z",
               "EditorCaption": ""
@@ -152,19 +151,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Agregar.cshtml",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Catalogo\\Agregar.cshtml",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Views\\Catalogo\\Agregar.cshtml",
               "ToolTip": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Catalogo\\Agregar.cshtml",
               "RelativeToolTip": "CatalogoApp.Presentation\\Views\\Catalogo\\Agregar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-20T16:01:44.123Z"
+              "WhenOpened": "2026-05-20T16:01:44.123Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Views\\_ViewImports.cshtml",
@@ -176,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "items.json",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\data\\items.json",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\data\\items.json",
@@ -188,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Views\\Shared\\Error.cshtml",
@@ -200,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\marce\\source\\repos\\CatalogoApp\\CatalogoApp.Presentation\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "CatalogoApp.Presentation\\Controllers\\HomeController.cs",

@@ -1,38 +1,68 @@
 ﻿@model CatalogoApp.Domain.Models.Item
 
-<h1>Agregar videojuego</h1>
+@{
+    ViewData["Title"] = "Agregar videojuego";
+}
 
-<form asp-action="Agregar" method="post">
-    @* Centrado vertical con Flexbox *@
-    <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <label style="width: 120px;">Título</label>
-        <input asp-for="Titulo" class="form-control" style="flex: 1;" />
+<section class="formulario-container">
+    <div class="formulario-card">
+        <div class="formulario-header">
+            <div class="formulario-icono">
+                🎮
+            </div>
+
+            <div>
+                <h1>Agregar videojuego</h1>
+                <p>Registra un nuevo videojuego en tu catálogo.</p>
+            </div>
+        </div>
+
+        <form asp-action="Agregar" method="post" class="formulario-videojuego">
+            <div class="campo-formulario">
+                <label asp-for="Titulo">Título</label>
+                <input asp-for="Titulo" placeholder="Ejemplo: Halo Infinite" />
+                <span asp-validation-for="Titulo" class="text-danger"></span>
+            </div>
+
+            <div class="campo-formulario">
+                <label asp-for="Genero">Género</label>
+                <input asp-for="Genero" placeholder="Ejemplo: Acción" />
+                <span asp-validation-for="Genero" class="text-danger"></span>
+            </div>
+
+            <div class="campo-formulario">
+                <label asp-for="Consola">Consola</label>
+                <input asp-for="Consola" placeholder="Ejemplo: Xbox Series X" />
+                <span asp-validation-for="Consola" class="text-danger"></span>
+            </div>
+
+            <div class="campo-formulario">
+                <label asp-for="Ano">Año</label>
+                <input asp-for="Ano" type="number" placeholder="Ejemplo: 2021" />
+                <span asp-validation-for="Ano" class="text-danger"></span>
+            </div>
+
+            <div class="campo-formulario">
+                <label asp-for="Descripcion">Descripción</label>
+                <textarea asp-for="Descripcion" rows="4" placeholder="Escribe una breve descripción del videojuego"></textarea>
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+
+            <div class="acciones-formulario">
+                <button type="submit" class="btn-guardar">
+                    Guardar videojuego
+                </button>
+
+                <a asp-action="Index" class="btn-cancelar">
+                    Cancelar
+                </a>
+            </div>
+        </form>
     </div>
+</section>
 
-    <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <label style="width: 120px;">Género</label>
-        <input asp-for="Genero" class="form-control" style="flex: 1;" />
-    </div>
-
-    <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <label style="width: 120px;">Consola</label>
-        <input asp-for="Consola" class="form-control" style="flex: 1;" />
-    </div>
-
-    <div style="display: flex; align-items: center; margin-bottom: 15px;">
-        <label style="width: 120px;">Año</label>
-        <input asp-for="Ano" type="number" class="form-control" style="flex: 1;" />
-    </div>
-
-    <div style="display: flex; align-items: flex-start; margin-bottom: 15px;">
-        <label style="width: 120px; margin-top: 8px;">Descripción</label>
-        <textarea asp-for="Descripcion" class="form-control" style="flex: 1;"></textarea>
-    </div>
-
-    <div style="margin-left: 120px;">
-        <button type="submit" class="btn btn-primary">Guardar</button>
-    </div>
-</form>
-
-<hr />
-<a asp-action="Index">&larr; Cancelar</a>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
