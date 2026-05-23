@@ -1,42 +1,73 @@
 ﻿@model List<CatalogoApp.Domain.Models.Item>
 
- 
+@{
+    ViewData["Title"] = "Catálogo de Videojuegos";
+}
 
-<h1>Catálogo de Videojuegos</h1>
+<section class="catalogo-hero">
+    <div>
+        <h1>Catálogo de Videojuegos</h1>
+        <p>Explora tu colección de videojuegos por género, año y título.</p>
+    </div>
 
- 
+    <a class="btn-agregar-videojuego" asp-action="Agregar">
+        + Agregar videojuego
+    </a>
+</section>
 
-<!-- Filtro por Genero -->
-<div>
-    <a asp-action="Index">Todos</a>
+<section class="filtros-genero">
+    <span class="filtro-label">Filtrar por género:</span>
+
+    <a class="filtro-link" asp-action="Index">
+        Todos
+    </a>
+
     @foreach (var gen in ViewBag.Generos as List<string>)
     {
-        <span> | </span>
-        <a asp-action="Index" asp-route-genero="@gen">@gen</a>
+        <a class="filtro-link" asp-action="Index" asp-route-genero="@gen">
+            @gen
+        </a>
     }
-</div>
+</section>
 
- 
+@if (Model == null || !Model.Any())
+{
+    <div class="catalogo-vacio">
+        <h2>No hay videojuegos registrados</h2>
+        <p>Agrega tu primer videojuego al catálogo.</p>
 
-<hr />
+        <a class="btn-agregar-videojuego" asp-action="Agregar">
+            Agregar videojuego
+        </a>
+    </div>
+}
+else
+{
+    <section class="videojuegos-grid">
+        @foreach (var item in Model)
+        {
+            <article class="videojuego-card">
+                <div class="videojuego-imagen">
+                    🎮
+                </div>
 
- 
+                <div class="videojuego-info">
+                    <span class="videojuego-genero">@item.Genero</span>
 
-<!-- Lista de Items -->
-<ul>
-    @foreach (var item in Model)
-    {
-        <li>
-            <a asp-action="Detalle" asp-route-id="@item.Id">@item.Titulo</a>
-            &mdash; @item.Genero &diams; @item.Ano
-        </li>
-    }
-</ul>
+                    <h2>@item.Titulo</h2>
 
- 
+                    <p>
+                        <strong>Año:</strong> @item.Ano
+                    </p>
 
-<hr />
-<a asp-action="Agregar">+ Agregar videojuego</a>
+                    <a class="btn-detalle" asp-action="Detalle" asp-route-id="@item.Id">
+                        Ver detalles
+                    </a>
+                </div>
+            </article>
+        }
+    </section>
+}
 
 
 
