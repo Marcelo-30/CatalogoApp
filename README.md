@@ -65,7 +65,7 @@ A continuación se muestran capturas de pantalla de la aplicación funcionando.
 
 ### 3. Catalgo con juegos agrgados
 
-![Agregar videojuego](Imagenes/Catalgo2.png)
+![Agregar videojuego](Imagenes/Catalogo2.png)
 
 ## Cláusula de uso de Inteligencia Artificial
 
